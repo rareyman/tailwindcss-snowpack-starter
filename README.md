@@ -1,6 +1,7 @@
 # TailwindCSS Snowpack Starter
 
-A simple starter project for playing around with TailwindCSS with PostCSS using the Snowpack environment.
+A simple TailwindCSS and Snowpack starter template. Helpful for designers wanting to have a fast and easy starting point for mocking up web pages with TailwindCSS.
+
 
 To get started:
 
