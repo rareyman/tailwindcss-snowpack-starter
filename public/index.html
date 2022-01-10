@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -8,26 +9,73 @@
 
 		<title>Starter TailwindCSS v3 Snowpack App</title>
 	</head>
-	<body>
-		<div class="w-2/3 p-6 mx-auto wrap">
-			<h1 class="text-2xl font-bold">TailwindCSS & Snowpack Starter</h1>
-			<div class="p-6 shadow-xl rounded-3xl">
-				<p>
-					Starter package for UI/UX designers to get started with some basic
-					design layouts using TailwindCSS.
-				</p>
-				<p>Also installed:</p>
-				<ul class="list-disc">
-					<li>AlpineJS</li>
-					<li>Opinionated ESLint, Stylelint & Prettier Configurations</li>
-				</ul>
-			</div>
 
-			<div class="p-6" x-data="{ open: false }">
-				<button @click="open = !open">Expand</button>
-				<span x-show="open"> Content... </span>
+	<body>
+
+		<!--
+  Welcome to Tailwind Play, the official Tailwind CSS playground!
+
+  Everything here works just like it does when you're running Tailwind locally
+  with a real build pipeline. You can customize your config file, use features
+  like `@apply`, or even add third-party plugins.
+
+  Feel free to play with this example if you're just learning, or trash it and
+  start from scratch if you know enough to be dangerous. Have fun!
+-->
+		<div class="relative flex flex-col justify-center min-h-screen py-6 overflow-hidden bg-gray-50 sm:py-12">
+			<img src="/images/beams.jpg" alt="" class="absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 max-w-none"
+				width="1308" />
+			<div
+				class="absolute inset-0 bg-[url(/images/grid.svg)] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]">
+			</div>
+			<div
+				class="relative px-6 pt-10 pb-8 bg-white shadow-xl ring-1 ring-gray-900/5 sm:max-w-lg sm:mx-auto sm:rounded-lg sm:px-10">
+				<div class="max-w-md mx-auto">
+					<img src="/images/logo.svg" class="h-6" alt="Tailwind Play" />
+					<div class="divide-y divide-gray-300/50">
+						<div class="py-8 space-y-6 text-base leading-7 text-gray-600">
+							<p>Starter package for UI/UX designers to get started with some basic
+								design layouts using TailwindCSS.</p>
+							<ul class="space-y-4">
+								<li></li>
+								<li>Opinionated ESLint, Stylelint & Prettier Configurations</li>
+								<li class="flex items-center">
+									<svg class="flex-none w-6 h-6 stroke-2 fill-sky-100 stroke-sky-500" stroke-linecap="round"
+										stroke-linejoin="round">
+										<circle cx="12" cy="12" r="11" />
+										<path d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9" fill="none" />
+									</svg>
+									<p class="ml-4">
+										AlpineJS
+									</p>
+								</li>
+								<li class="flex items-center">
+									<svg class="flex-none w-6 h-6 stroke-2 fill-sky-100 stroke-sky-500" stroke-linecap="round"
+										stroke-linejoin="round">
+										<circle cx="12" cy="12" r="11" />
+										<path d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9" fill="none" />
+									</svg>
+									<p class="ml-4">
+										Opinionated ESLint, Stylelint & Prettier Configurations
+									</p>
+								</li>
+							</ul>
+							<p>Perfect for learning how the framework works, prototyping a new idea, or creating a demo to share
+								online.</p>
+						</div>
+						<div class="pt-8 text-base font-semibold leading-7">
+							<p class="text-gray-900">Want to dig deeper into Tailwind?</p>
+							<p>
+								<a href="https://tailwindcss.com/docs" class="text-sky-500 hover:text-sky-600">Read the docs &rarr;</a>
+							</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
+
+
 		<script type="module" src="/scripts/index.js"></script>
 	</body>
+
 </html>
