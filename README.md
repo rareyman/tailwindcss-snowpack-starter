@@ -13,7 +13,9 @@ To get started:
    cd tailwindcss-snowpack-starter
    ```
 
-   (Optional: Rename project.)
+1a. Optional: Rename project folder and rename project name in `package.json`
+1b. Optional Git: Remove Remote to disassocaite project from the original GitHub project
+1c. Optional Git: Add Remote to your own Git Repository
 
 2. Install the dependencies:
 
