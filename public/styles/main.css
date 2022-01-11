@@ -1,0 +1,48 @@
+/*
+============================================================================= */
+
+/**
+ * This injects Tailwind's base styles and any base styles registered by
+ * plugins.
+ */
+@tailwind base;
+/**
+ * This injects Tailwind's component classes and any component classes
+ * registered by plugins.
+ */
+@tailwind components;
+/**
+ * This injects Tailwind's utility classes and any utility classes registered
+ * by plugins.
+ */
+@tailwind utilities;
+
+/*
+============================================================================= */
+
+@layer base {
+	/* add base styles here */
+	body {
+		/* … */
+	}
+}
+
+@layer components {
+	/* add component styles here */
+}
+
+@layer utilities {
+	/* add utility styles here */
+}
+
+/**
+* The screen function allows you to create media queries that reference
+* your breakpoints by name instead of duplicating their values in your own CSS.
+*/
+
+@media screen(sm) {
+	/* small */
+	body {
+		/* … */
+	}
+}
