@@ -13,6 +13,7 @@ module.exports = {
 	devOptions: {
 		// prevents run script from opening browser automatically
 		// open: 'none',
+		port: 8888, // default: 8080
 		tailwindConfig: './tailwind.config.js',
 	},
 	buildOptions: {},
