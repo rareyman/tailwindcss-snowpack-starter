@@ -17,6 +17,10 @@ To get started:
 
 1b. Optional Git: Remove Remote to disassociate project from the original starter project
 
+   ```bash
+   git remote remove origin
+   ```
+
 1c. Optional Git: Add Remote to your own Git Repository
 
 2. Install the dependencies:
